@@ -1,5 +1,5 @@
 
-import { useState } from "react"
+import React, { useState } from "react"
 
 export default function Selection({applyColor}){
   const [color, setColor] = useState({background:""})
