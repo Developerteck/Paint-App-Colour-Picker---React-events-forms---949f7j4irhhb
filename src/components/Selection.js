@@ -1,11 +1,10 @@
 
-import React, { useState } from "react"
+import React from "react"
 
-export default function Selection({applyColor}){
-  const [color, setColor] = useState({background:""})
+export default function Selection(){
   return (
-    <div onClick={()=>{applyColor(setColor)}} style={color} className="fix-box">
-      <h2 className="subheading">Selection</h2>
+    <div>
+      
     </div>
   )
 }
